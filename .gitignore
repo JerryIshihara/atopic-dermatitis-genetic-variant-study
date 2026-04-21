@@ -1,0 +1,34 @@
+# Large intermediate outputs — regenerate locally
+imputed_batches/
+final_imputed_*.txt.gz
+harmonized_*.txt.gz
+
+# Per-tissue S-PrediXcan results (~90 MB / trait × 8 traits = 720 MB)
+spredixcan/
+
+# Everything under data/ stays local — only the data README is tracked
+gwas-twas-analysis/data/**
+!gwas-twas-analysis/data/README.md
+
+# Cloned third-party tools
+external/
+
+gwas/*.vcf.gz
+reference_panel_1000G/
+models/
+*.parquet
+
+# Logs and scratch
+*.log
+logs/
+output/
+external-packages/
+
+# Zenodo upload scripts + state (kept local, never committed)
+gwas-twas-analysis/scripts/zenodo/
+
+# OS + editor
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
