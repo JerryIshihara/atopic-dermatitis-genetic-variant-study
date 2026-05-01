@@ -10,6 +10,9 @@ spredixcan/
 gwas-twas-analysis/data/**
 !gwas-twas-analysis/data/README.md
 
+# Drug-repurposing working folder — keep local while WIP
+drug-repurposing/
+
 # Cloned third-party tools
 external/
 
