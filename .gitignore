@@ -13,6 +13,10 @@ gwas-twas-analysis/data/**
 # Drug-repurposing working folder — keep local while WIP
 drug-repurposing/
 
+# Drug side-effect: keep generated data + results local; track docs/scripts.
+drug-side-effect/data/
+drug-side-effect/results/
+
 # Cloned third-party tools
 external/
 
